@@ -35,7 +35,7 @@ public class Principal {
 		alunos.updateOne(Filters.eq("nome", "Julia"), new Document("$set", new Document("dataNascimento" , new Date(2017, 04, 11))));
 		
 		
-		//alunos.deleteOne(Filters.eq("nome" , "Joao"));
+		/////alunos.deleteOne(Filters.eq("nome" , "Joao"));
 				
 		cliente.close();
 	}
